@@ -1,24 +1,43 @@
-# README
+# Ruby on Rails Flickr Photostream!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> An API Based Web Application Written for the Odin Project
 
-Things you may want to cover:
+<div align='center'>
+  <img src='./public/screenshots/flickr.png' alt='Authentication' height='440px' />
+</div>
 
-* Ruby version
+## Demo
 
-* System dependencies
+[View The Live Demo](https://rails-flickr-photostream.herokuapp.com)
 
-* Configuration
+## Features
 
-* Database creation
+Look up a Flickr user to see their photostream!
 
-* Database initialization
+## Deploy the Project
 
-* How to run the test suite
+__Clone the repo to your local machine using the terminal__:
+```
+$ git clone git@github.com:andrewbaldwin44/Rails_Flickr_Stream.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+__Deploy the Development Server__:
+1. Navigate into the project directory: `cd Rails_Flickr_Stream`
+2. Install the dependencies: `bundle install`
+3. Start the development server: `rails s`
 
-* Deployment instructions
+This will run the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* ...
+## Technologies Used
+
+- Ruby
+- Ruby On Rails
+- SASS
+- Flickr API
+
+## Author
+
+👤 **Andrew Baldwin**
+
+- Github: [@andrewbaldwin44](https://github.com/andrewbaldwin44)
