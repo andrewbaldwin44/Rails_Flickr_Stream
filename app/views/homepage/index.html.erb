@@ -3,3 +3,11 @@
   <%= f.text_field :user_id %><br><br>
   <%= f.submit 'Submit' %>
 <% end %>
+
+<% if @photos %>
+  <div class="photo-stream">
+    <% @photos.each do |photo| %>
+      <img src=<%= Flickr.url(photo) %> ><br>
+    <% end %>
+  </div>
+<% end %>
