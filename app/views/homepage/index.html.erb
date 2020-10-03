@@ -1,8 +1,5 @@
-<form action="/flickr" method="get" class="flickr-search">
-    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+<%= form_with url: root_path, local: true, method: "get", class: "flickr-search" do |f| %>
   <h1>Search Flickr</h1>
-  <input type="text" name="userID" placeholder="userID" />
-  <button type="submit">
-      Search
-  </button>
-</form>
+  <%= f.text_field :user_id %><br><br>
+  <%= f.submit 'Submit' %>
+<% end %>
