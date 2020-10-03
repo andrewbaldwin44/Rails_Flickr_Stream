@@ -1,0 +1,30 @@
+.flickr-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 26vh;
+  flex-direction: column;
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    font-size: inherit;
+  }
+
+  button {
+    min-width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: #33b5e5;
+    margin-top: 25px;
+    font-size: inherit;
+    cursor: pointer;
+  }
+}
