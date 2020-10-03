@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 26vh;
   flex-direction: column;
+  height: 26vh;
+  margin-top: 30px;
 
   h1 {
     font-size: 2.2em;
@@ -33,9 +34,24 @@
   flex-wrap: wrap;
   margin-top: 20px;
 
-
   img {
     width: calc(100vw / 5);
     margin: 10px;
   }
+}
+
+.warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 50px;
+  color: #f13240;
+  background-color: #ffe3e3;
+  border: 1px solid #f13240;
+  border-radius: 3px;
 }
